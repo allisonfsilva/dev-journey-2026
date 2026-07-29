@@ -28,11 +28,11 @@ Meu objetivo é compartilhar meu aprendizado, construir projetos reais e conquis
 - [x] JSON
 
 ## Git
-- [ ] Git
-- [ ] GitHub
-- [ ] Branches
-- [ ] Merge
-- [ ] Pull Requests
+- [x] Git
+- [x] GitHub
+- [x] Branches
+- [x] Merge
+- [x] Pull Requests
 
 ## Linux
 - [ ] Bash
