@@ -13,19 +13,19 @@ Meu objetivo é compartilhar meu aprendizado, construir projetos reais e conquis
 # 📚 Roadmap
 
 ## Fundamentos
-- [ ] Lógica de Programação
-- [ ] Algoritmos
-- [ ] Estruturas de Dados
-- [ ] Programação Orientada a Objetos
+- [x] Lógica de Programação
+- [x] Algoritmos
+- [x] Estruturas de Dados
+- [x] Programação Orientada a Objetos
 
 ## Web
-- [ ] Cliente x Servidor
-- [ ] HTTP
-- [ ] HTTPS
-- [ ] DNS
-- [ ] Navegadores
-- [ ] APIs REST
-- [ ] JSON
+- [x] Cliente x Servidor
+- [x] HTTP
+- [x] HTTPS
+- [x] DNS
+- [x] Navegadores
+- [x] APIs REST
+- [x] JSON
 
 ## Git
 - [ ] Git
