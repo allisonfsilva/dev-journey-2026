@@ -35,10 +35,10 @@ Meu objetivo é compartilhar meu aprendizado, construir projetos reais e conquis
 - [x] Pull Requests
 
 ## Linux
-- [ ] Bash
-- [ ] Terminal
-- [ ] SSH
-- [ ] Variáveis de Ambiente
+- [x] Bash
+- [x] Terminal
+- [x] SSH
+- [x] Variáveis de Ambiente
 
 ## Java
 - [ ] Java 17+
