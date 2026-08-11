@@ -75,7 +75,7 @@ Meu objetivo é compartilhar meu aprendizado, construir projetos reais e conquis
 
 # 📈 Evolução
 
-⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%
+✅⬜⬜⬜⬜⬜⬜⬜⬜⬜ 10%
 
 ---
 
