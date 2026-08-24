@@ -9,7 +9,7 @@ public class ContaBancaria {
         if (depositoInicial <= 500.0) {
             this.limiteChequeEspecial = 50.0;
         } else {
-            this.limiteChequeEspecial = depositoInicial * 0.50; // 50% do valor
+            this.limiteChequeEspecial = depositoInicial * 0.50; 
         }
     }
 
@@ -36,11 +36,10 @@ public class ContaBancaria {
         }
 
         if (usandoChequeEspecial()) {
-            double valorUsado = Math.abs(this.saldo); // Pega o valor negativo e transforma em positivo
+            double valorUsado = Math.abs(this.saldo); 
             double taxa = valorUsado * 0.20;
             System.out.println("Você estava usando o cheque especial. Taxa de 20% (R$ " + taxa + ") cobrada.");
             
-            // Desconta a taxa do valor depositado
             valor = valor - taxa; 
         }
 
@@ -63,7 +62,6 @@ public class ContaBancaria {
     }
 
     public void pagarBoleto(double valor) {
-        // A lógica de pagar boleto é exatamente a mesma de sacar dinheiro
         System.out.println("Iniciando pagamento de boleto...");
         sacar(valor); 
     }
