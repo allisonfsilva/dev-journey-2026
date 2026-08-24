@@ -60,7 +60,7 @@ public class MenuBanco {
                 default ->
                     System.out.println("Opção inválida! Tente novamente.");
             }
-        } while (opcao != 0); // Continua rodando enquanto o usuário não digitar 0
+        } while (opcao != 0); 
 
         scanner.close();
 
