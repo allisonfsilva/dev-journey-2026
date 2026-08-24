@@ -34,7 +34,6 @@ public class CleanMachine {
         System.out.println("Água abastecida. Nível atual: " + this.nivelAgua + "L");
     }
 
-    // MÉTODO FALTANDO 2: Abastecer Shampoo
     public void abastecerShampoo() {
         if (this.nivelShampoo >= 10) {
             System.out.println("Aviso: A máquina já está com a capacidade máxima de shampoo (10L).");
