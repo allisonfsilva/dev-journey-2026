@@ -29,7 +29,7 @@ public class CleanMachine {
         }
         this.nivelAgua += 2;
         if (this.nivelAgua > 30) {
-            this.nivelAgua = 30; // Garante o teto de 30L
+            this.nivelAgua = 30; 
         }
         System.out.println("Água abastecida. Nível atual: " + this.nivelAgua + "L");
     }
@@ -42,12 +42,11 @@ public class CleanMachine {
         }
         this.nivelShampoo += 2;
         if (this.nivelShampoo > 10) {
-            this.nivelShampoo = 10; // Garante o teto de 10L
+            this.nivelShampoo = 10; 
         }
         System.out.println("Shampoo abastecido. Nível atual: " + this.nivelShampoo + "L");
     }
 
-    // MÉTODO FALTANDO 3: Limpar a Máquina
     public void limparMaquina() {
         if (this.petAtual != null) {
             System.out.println("Erro: Retire o pet antes de iniciar a limpeza da máquina.");
