@@ -26,7 +26,6 @@ public class PetShopBanho {
             
             opcao = scanner.nextInt();
             
-            // O PULO DO GATO: Limpando o "Enter" do teclado!
             scanner.nextLine(); 
 
             switch (opcao) {
@@ -36,10 +35,8 @@ public class PetShopBanho {
                     System.out.print("Qual é o nome do pet que vai tomar banho? ");
                     String nomeDigitado = scanner.nextLine();
                     
-                    // Aqui usamos a SUA classe! Instanciamos o objeto Pet:
                     Pet novoPet = new Pet(nomeDigitado);
                     
-                    // E passamos o objeto inteiro para dentro da máquina:
                     maquina.colocarPet(novoPet);
                 }
                 case 4 -> maquina.darBanho();
